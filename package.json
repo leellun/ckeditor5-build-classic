@@ -47,6 +47,7 @@
     "@ckeditor/ckeditor5-theme-lark": "40.2.0",
     "@ckeditor/ckeditor5-code-block": "40.2.0",
     "@ckeditor/ckeditor5-font": "40.2.0",
+    "@ckeditor/ckeditor5-source-editing": "40.2.0",
     "@ckeditor/ckeditor5-dev-utils": "40.2.0",
     "@ckeditor/ckeditor5-dev-webpack-plugin": "30.0.0",
     "eslint": "^8.57.0",

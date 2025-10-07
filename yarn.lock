@@ -347,6 +347,14 @@
     "@ckeditor/ckeditor5-ui" "40.2.0"
     "@ckeditor/ckeditor5-utils" "40.2.0"
 
+"@ckeditor/ckeditor5-source-editing@40.2.0":
+  version "40.2.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-source-editing/-/ckeditor5-source-editing-40.2.0.tgz#0a5e6bff75406e07fcdabed96879f699d3394593"
+  integrity sha512-Kh0HXxtOs1jNQAUYzxY1IG7JyUG88AJnM9cNATI9+zo55XwPqBrs6w3hesDDF83Vp87Kjtw9lViHUwwcPRl59Q==
+  dependencies:
+    "@ckeditor/ckeditor5-theme-lark" "40.2.0"
+    ckeditor5 "40.2.0"
+
 "@ckeditor/ckeditor5-table@40.2.0":
   version "40.2.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-table/-/ckeditor5-table-40.2.0.tgz#e2a77495a6c6c5c7fdd3194e452a3b04446e0f5d"

@@ -13,6 +13,7 @@ import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor';
+import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
 import Image from '@ckeditor/ckeditor5-image/src/image';
 import ImageBlock from '@ckeditor/ckeditor5-image/src/imageblock';
@@ -30,6 +31,7 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock';
+import SourceEditing from '@ckeditor/ckeditor5-source-editing/src/sourceediting';
 import CustomButton from './plugins/customButton';
 
 export default class ClassicEditor extends ClassicEditorBase {}
@@ -43,6 +45,7 @@ ClassicEditor.builtinPlugins = [
 	Underline,
 	BlockQuote,
 	FontColor,
+	FontBackgroundColor,
 	Heading,
 	Image,
 	ImageBlock,
@@ -60,6 +63,7 @@ ClassicEditor.builtinPlugins = [
 	TableToolbar,
 	TextTransformation,
 	CodeBlock,
+	SourceEditing,
 	CustomButton
 ];
 
